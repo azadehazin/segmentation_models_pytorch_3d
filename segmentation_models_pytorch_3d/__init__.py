@@ -4,14 +4,14 @@ from . import decoders
 from . import losses
 from . import metrics
 
-from .decoders.unet import Unet
-from .decoders.unetplusplus import UnetPlusPlus
-from .decoders.manet import MAnet
-from .decoders.linknet import Linknet
-from .decoders.fpn import FPN
-from .decoders.pspnet import PSPNet
-from .decoders.deeplabv3 import DeepLabV3, DeepLabV3Plus
-from .decoders.pan import PAN
+from .decoders import Unet
+from .decoders import UnetPlusPlus
+from .decoders import MAnet
+from .decoders import Linknet
+from .decoders import FPN
+from .decoders import PSPNet
+from .decoders import DeepLabV3, DeepLabV3Plus
+from .decoders import PAN
 
 from .__version__ import __version__
 
